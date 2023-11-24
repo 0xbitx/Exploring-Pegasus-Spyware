@@ -22,8 +22,22 @@ Pegasus boasts a wide range of surveillance features, allowing it to collect tex
 ## 6. Persistent Presence
 
 Designed to maintain a persistent presence, Pegasus survives software updates and attempts to remove it, ensuring ongoing surveillance on the compromised device.
+
+# Chain of Zero-Days: the Three Stages of Zero-Day
+
+## Stage One: The Malicious Link
+At the heart of this exploit is a deceptively simple entry point – a malicious link. Users unsuspectingly click on the link, triggering the Safari browser on their iPhones. Safari, powered by WebKit, serves as the browser's engine and becomes the initial battleground for the attackers. A JavaScript program is unleashed, aiming to exploit a critical bug in WebKit that allows unauthorized data writes to the device. Through this vulnerability, a malicious program is downloaded, setting the stage for the subsequent phases.
+
+## Stage Two: Breaking Apple's Fortress
+Apple has fortified its iPhones against unauthorized applications, permitting only those vetted through the official App Store. This formidable barrier is breached in the second stage, where the downloaded malware employs an exploit to jailbreak the iPhone. By exploiting two undisclosed vulnerabilities in the iPhone's kernel – unknown to Apple at the time – the malware gains the ability to run any app, not just those sanctioned by the App Store. This critical step opens the door for the execution of the malicious app without the usual constraints.
+
+## Stage Three: Silent Invasion
+With the iPhone now liberated from its confined app ecosystem, the malicious app operates stealthily, leveraging the device's features without arousing suspicion. The app doesn't rely on additional exploits or bugs; instead, it capitalizes on the inherent capabilities of the iPhone. From activating the microphone and camera to intercepting WhatsApp messages and tracking the device's location, the app operates seamlessly, clandestinely collecting sensitive data. This harvested information is then transmitted back to the attackers, all while the victim remains oblivious to the breach.
+
 ## Conclusion
 
 The use of spyware like Pegasus raises serious concerns about privacy, human rights, and the potential for abuse. Governments and organizations worldwide are alarmed at the implications of such tools in the hands of both state and non-state actors.
 
 Efforts to combat the use of such spyware involve technological defenses, legal actions, and international cooperation. Awareness and understanding of these threats are crucial steps in safeguarding digital privacy and security.
+
+
