@@ -23,7 +23,7 @@ Pegasus boasts a wide range of surveillance features, allowing it to collect tex
 
 Designed to maintain a persistent presence, Pegasus survives software updates and attempts to remove it, ensuring ongoing surveillance on the compromised device.
 
-# Chain of Zero-Days: the Three Stages of Zero-Day
+# Chain of Zero-Days: the Three Stages of Attack
 
 ## Stage One: The Malicious Link
 At the heart of this exploit is a deceptively simple entry point – a malicious link. Users unsuspectingly click on the link, triggering the Safari browser on their iPhones. Safari, powered by WebKit, serves as the browser's engine and becomes the initial battleground for the attackers. A JavaScript program is unleashed, aiming to exploit a critical bug in WebKit that allows unauthorized data writes to the device. Through this vulnerability, a malicious program is downloaded, setting the stage for the subsequent phases.
